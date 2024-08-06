@@ -30,6 +30,7 @@ def island_perimeter(grid):
                     counter += 1
                 else:
                     # left side
+                    
                     if lst[land_idx - 1] == 0:
                         counter += 1
 
